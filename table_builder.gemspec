@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{table_builder}
-  s.version = "0.2.0"
+  s.version = "0.3.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Petrik de Heus"]
-  s.date = %q{2010-07-03}
+  s.authors = ["Petrik de Heus", "Zaiste!"]
+  s.date = %q{2010-11-02}
   s.description = %q{Rails builder for creating tables and calendars inspired by ActionView's FormBuilder.}
   s.email = %q{}
   s.extra_rdoc_files = [
@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
      "init.rb",
      "lib/table_builder.rb",
      "lib/table_builder/calendar_helper.rb",
+     "lib/table_builder/schedule_helper.rb",
      "lib/table_builder/table_builder.rb",
      "lib/tasks/table_builder_tasks.rake",
      "table_builder.gemspec",

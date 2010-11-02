@@ -30,7 +30,7 @@ begin
     gem.description = %Q{Rails builder for creating tables and calendars inspired by ActionView's FormBuilder.}
     gem.email       = ""
     gem.homepage    = "http://github.com/maca/table_builder"
-    gem.authors     = ["Petrik de Heus"]
+    gem.authors     = ["Petrik de Heus", "Zaiste!"]
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
