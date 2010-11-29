@@ -15,7 +15,7 @@ module TableHelper
     include ::ActionView::Helpers::TagHelper
 
     def initialize(objects, template, options)
-      raise ArgumentError, "TableBuilder expects an Array but found a #{objects.inspect}" unless objects.is_a? Array
+      raise ArgumentError, "TableBuilder expects an Array but found a #{objects.inspect}" unless objects.respond_to? :each
       @objects, @template, @options = objects, template, options
     end
 
